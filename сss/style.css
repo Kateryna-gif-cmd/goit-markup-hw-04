@@ -436,7 +436,8 @@ address {
 }
 
 .portfolio {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-list {
     margin-bottom: 50px;
