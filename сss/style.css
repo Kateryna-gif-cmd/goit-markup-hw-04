@@ -140,8 +140,11 @@ address {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
-
+}
+.contacts-icon::before {
+  content: ' ';
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .header-mail-link:hover {
