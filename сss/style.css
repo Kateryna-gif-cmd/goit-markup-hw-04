@@ -130,17 +130,7 @@ address {
   flex-wrap: wrap;
   column-gap: 50px;
 }
-.header-nav .mail-link-icon::before {
-  content: " ";
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../img/header-envelope.svg);
-  vertical-align: middle;
-  
-
-}
+ 
 .header-mail-link {
   font-weight: 500;
   font-size: 14px;
@@ -164,6 +154,17 @@ address {
   text-decoration: none;
 }
 
+.mail-link-ikon .tel-link-ikon {
+  content: " ";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../img/icon-envelope.svg);
+  vertical-align: middle;
+  
+
+}
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
