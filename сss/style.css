@@ -167,21 +167,8 @@ address {
 .header-tel-link:hover {
   color: var(--accent-color);  
 }
-.icon-tel-link .icon::before {
-  content: " ";
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-.icon-mail-link .icon::before {
-  content: " ";
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-.icon-link
+
+
 /*Hero styles*/
 .hero {
   background: #2F303A;
