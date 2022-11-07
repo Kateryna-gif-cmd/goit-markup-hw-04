@@ -167,8 +167,23 @@ address {
 .header-tel-link:hover {
   color: var(--accent-color);  
 }
+.icon-mail-link::before {
+  content: " ";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../img/header-envelope.svg);
 
-
+}
+.icon-tel-link::before {
+  content: " ";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../img/icon-smartphone.svg);
+}
 /*Hero styles*/
 .hero {
   background: #2F303A;
