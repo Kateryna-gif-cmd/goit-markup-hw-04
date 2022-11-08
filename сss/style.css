@@ -141,11 +141,7 @@ address {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.contacts-icon::before {
-  content: ' ';
-  display: inline-block;
-  margin-right: 10px;
-}
+
 
 .header-mail-link:hover {
   color: var(--accent-color);  
@@ -175,6 +171,14 @@ address {
 /*Hero styles*/
 .hero {
   background: #2F303A;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 .hero.section {
   padding-top: 200px;
