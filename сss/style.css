@@ -442,7 +442,7 @@ address {
     flex-wrap: wrap;
     justify-content: center;
   }
-   .clients-list .clients-item {
+   .clients-list  {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -456,6 +456,7 @@ address {
     border: 1px solid 
     #AFB1B8;
     border-radius: 4px;
+    border-color: #AFB1B8;
   }
   .clients-list .clients-item:last-child {
     margin-right: 0;
@@ -472,9 +473,13 @@ address {
 .clients-list .clients-icon {
   fill: #AFB1B8;
 }
-.clients-list .clients-item:hover .clients-icon {
+
+
+.clients-item:hover .clients-link:hover .clients-icon:hover {
   fill: var(--accent-color);
+  
 }
+
 /*Footer styles*/
 .footer {
   padding-top: 60px;
@@ -486,10 +491,10 @@ address {
   align-items: baseline;
 }
 
+
 .first-container {
   margin-right: 70px;
 }
-
 .logo-footer {
   font-family: 'Raleway';
   font-style: normal;
@@ -563,8 +568,9 @@ address {
   text-decoration: none; 
 }
 .second-container {
-  padding-top: 72px;
-  margin-left: 70px;
+ 
+  
+  margin-right: auto;
 }
 
 .message-after-title {
@@ -573,7 +579,7 @@ address {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-    margin-left: 70px;
+    
     margin-bottom: 20px;
    
   
@@ -584,7 +590,6 @@ address {
 .footer-icons {
   display: flex;
   justify-content: left;
-  margin-left: 70px;
   margin-bottom: 20px;
   
 }
