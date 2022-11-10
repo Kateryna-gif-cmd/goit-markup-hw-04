@@ -568,6 +568,7 @@ address {
 }
 .second-container {
  display: flex;
+ flex-direction: column;
  margin-right: auto;
 }
 
