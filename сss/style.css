@@ -54,6 +54,7 @@ address {
 }
 .link {
   text-decoration: none;
+  
 }
 .list {
   list-style: none;
@@ -460,8 +461,9 @@ address {
     justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    color: #AFB1B8
   }
- 
+
 .clients-list .clients-icon {
   fill: currentColor;
 }
@@ -672,7 +674,9 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 
 }
 
-
+.examples-card {
+  text-decoration: none;
+}
 
 .galery-list {
   display: flex;
@@ -680,6 +684,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .galery-about-text {
   padding: 20px 24px;
 
