@@ -533,6 +533,7 @@ address {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     
   }
 .footer-list .footer-list-item:nth-child(even) {
@@ -566,9 +567,8 @@ address {
   text-decoration: none; 
 }
 .second-container {
- 
-  
-  margin-right: auto;
+ display: flex;
+ margin-right: auto;
 }
 
 .message-after-title {
