@@ -7,6 +7,7 @@
   --button-second-color: #2196F3;
   --body-color--: white;
   --section-color--:  #F5F4FA;
+  
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -166,7 +167,7 @@ address {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-link:hover
+.header-link:hover,
 .header-link:focus {
   color: var(--accent-color);  
 }
@@ -443,12 +444,9 @@ address {
   .clients-list .clients-item {
     width: 170px;
     height: 92px;
-    background-color: var(--body-color--);
+    
     margin-right: 30px;
-    border: 1px solid 
-    #AFB1B8;
-    border-radius: 4px;
-    border-color: #AFB1B8;
+  
   }
   .clients-list .clients-item:last-child {
     margin-right: 0;
@@ -460,17 +458,22 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
   }
  
 .clients-list .clients-icon {
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
+.clients-link:hover,
+.clients-icon:hover {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color)
+}
 
-.clients-item:hover .clients-link:hover .clients-icon:hover {
-  fill: var(--accent-color);
   
-}
+
 
 /*Footer styles*/
 .footer {
