@@ -479,14 +479,12 @@ address {
   fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-icon:hover {
+.clients-link:hover {
   color: var(--accent-color);
   border: 1px solid var(--accent-color)
 }
 
-.clients-link:focus,
-.clients-icon:focus {
+.clients-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color)
 }
@@ -696,7 +694,12 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 }
 
 .examples-card {
+  display: block;
   text-decoration: none;
+}
+.examples-card:hover
+.examples-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .galery-list {
